@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "sourceMap": true,
+    "target": "es2016",
+    "module": "commonjs",
+    "moduleResolution": "node16", // needed for satori-html
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitAny": true,
+    "strict": true,
+    "skipLibCheck": true
+  },
+  "include": [
+    "./*.js",
+    "src/**/*.ts",
+    "test/**/*.ts", "src/api/image.tsx",
+  ],
+}
